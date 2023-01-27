@@ -14,6 +14,6 @@ Create a new identity pool in Cognito that allows authentication from Google by 
 Update the index.html file located in the application S3 Bucket to use your Google Client ID. Update the scripts.js file with the Cognito Identity Pool ID & Private S3 Bucket name. Upload the updated files into the application S3 Bucket.
 ![Screenshot_6](https://user-images.githubusercontent.com/109190196/214978136-3c969816-bebc-4bc2-bc12-75762ca95f48.jpg)
 
-Go to CloudFront and open the application in your browser with the distribution domain name. Sign into Google with your Google account. This will create a Google Authentication Token which Cognito will exchange for temporary AWS credentials. The images in the private S3 Bucket full of cat photos will be shown via presignedURL.
+Go to CloudFront and open the application in your browser with the distribution domain name. Sign into Google with your Google account (or single sign-on if you are already signed into your Google account). This will create a Google Authentication Token which Cognito will exchange for temporary AWS credentials. The images in the private S3 Bucket full of cat photos will be shown via presignedURL.
 ![Screenshot_7](https://user-images.githubusercontent.com/109190196/214978173-c16e6361-7032-4281-8880-da831551a1ce.jpg)
 ![InkedScreenshot_8](https://user-images.githubusercontent.com/109190196/214978368-7ccd000d-344d-457b-b356-64e2e60ee14c.jpg)
