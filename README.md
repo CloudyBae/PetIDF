@@ -1,4 +1,4 @@
-PetIDF is a serverless application that uses web idententity federation to allow anyone with a google account to access very imporant cat photos in a private S3 Bucket without having an AWS account with correct credentials.
+PetIDF is a serverless application that uses web identity federation to allow anyone with a google account to access very imporant cat photos in a private S3 Bucket without having an AWS account with correct credentials.
 
 Apply the CloudFormation template which implements a CFN Stack that creates a private S3 Bucket full of cat photos, the application S3 Bucket, and the CloudFront distribution. It also creates a Lambda Function that copies objects into the buckets.
 ![Screenshot_1](https://user-images.githubusercontent.com/109190196/214977753-c4a7cbc8-99de-4494-abf7-653c6a8c62e6.jpg)
